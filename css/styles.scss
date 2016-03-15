@@ -14,6 +14,13 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .brand-logo {
+        line-height: 0;
+        font-size: 12px;
+    }
+}
+
 .side-nav {
     z-index: 999;
 }
