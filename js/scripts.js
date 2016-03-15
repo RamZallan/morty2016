@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
+    $('.materialboxed').materialbox();
 
     $('.counter').each(function () {
         var $this = $(this),
