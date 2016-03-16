@@ -127,4 +127,12 @@ hr.short {
 .counters {
   padding-top: 20px; }
 
+/* line 133, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+#disclaimer {
+  margin: 0;
+  padding: 20px; }
+  /* line 136, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  #disclaimer strong {
+    border-bottom: 3px solid white; }
+
 /*# sourceMappingURL=styles.css.map */

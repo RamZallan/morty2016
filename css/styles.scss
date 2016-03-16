@@ -129,3 +129,11 @@ hr.short {
 .counters {
     padding-top: 20px;
 }
+
+#disclaimer {
+    margin: 0;   
+    padding: 20px;
+    & strong {
+        border-bottom: 3px solid white;
+    }
+}

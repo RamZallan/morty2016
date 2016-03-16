@@ -2,6 +2,12 @@ $(document).ready(function () {
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
+    $('#disclaimer').hide();
+    
+    $('#disclaimerLink').click(function() {
+        $('#disclaimer').slideToggle();
+    });
+
 
     $('.counter').each(function () {
         var $this = $(this),
