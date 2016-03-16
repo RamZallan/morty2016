@@ -133,6 +133,9 @@ hr.short {
 #disclaimer {
     margin: 0;   
     padding: 20px;
+    & h5 {
+        line-height: 1.5;
+    }
     & strong {
         border-bottom: 3px solid white;
     }
