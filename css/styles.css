@@ -4,19 +4,23 @@ body {
   font-family: "Lora", serif; }
 
 /* line 7, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+strong {
+  font-weight: 700; }
+
+/* line 11, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 .button-collapse {
   padding-left: 20px; }
 
 @media (min-width: 900px) {
-  /* line 12, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 16, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   .brand-logo {
     margin: 0px 20px; } }
 
-/* line 17, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 21, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 .side-nav {
   z-index: 999; }
 
-/* line 21, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 25, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 .image {
   height: 95vh;
   position: relative;
@@ -26,7 +30,7 @@ body {
   background-size: cover;
   word-wrap: break-word;
   hyphens: manual; }
-  /* line 30, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 34, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   .image .image-content {
     position: absolute;
     top: 15%;
@@ -35,13 +39,13 @@ body {
     width: 100%;
     text-align: center;
     color: white; }
-    /* line 38, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+    /* line 42, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
     .image .image-content h1 {
       font-weight: 700;
       font-size: 80px;
       line-height: 1;
       text-shadow: 3px 3px black; }
-    /* line 44, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+    /* line 48, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
     .image .image-content h2 {
       text-transform: uppercase;
       font-size: 25px;
@@ -49,80 +53,77 @@ body {
       font-weight: 700;
       color: white;
       text-shadow: 2px 2px black; }
-    /* line 52, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+    /* line 56, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
     .image .image-content .btn {
       margin-top: 20px; }
 
-/* line 58, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 62, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 .btn {
   font-size: 20px;
   font-weight: 700;
   z-index: 10000000000000;
   cursor: pointer; }
-  /* line 63, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 67, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   .btn i:first-of-type {
     padding-right: 10px; }
-  /* line 66, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 70, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   .btn i:last-of-type {
     padding-left: 10px; }
 
-/* line 71, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 75, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 h3 {
   border-bottom: 3px solid black;
   padding-bottom: 5px;
   text-align: center; }
 
-/* line 77, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 81, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 blockquote {
   border: none;
   border-bottom: 1px dashed #1e88e5;
   padding: 5px 10px; }
-  /* line 81, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
-  blockquote strong {
-    font-weight: 700; }
-  /* line 84, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 85, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   blockquote:nth-child(odd) {
     border-left: 5px solid #1e88e5;
     border-bottom-left-radius: 20px; }
-  /* line 88, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 89, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   blockquote:nth-child(even) {
     border-right: 5px solid #1e88e5;
     border-bottom-right-radius: 20px;
     text-align: right; }
 
-/* line 95, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 96, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 #about {
   text-align: center; }
-  /* line 97, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 98, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   #about img {
     width: 100%;
     height: auto; }
-  /* line 101, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 102, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   #about .blurb {
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.3; }
 
-/* line 109, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 110, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 .counter {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   color: #1e88e5;
   line-height: 0.3; }
-  /* line 115, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+  /* line 116, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
   .counter + p {
     font-weight: 700;
     text-align: center;
     font-size: 16px;
     line-height: 1; }
 
-/* line 123, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 124, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 hr.short {
   width: 200px;
   margin: 30px auto; }
 
-/* line 128, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
+/* line 129, C:/Users/ram.zallan/Desktop/morty2016/css/styles.scss */
 .counters {
   padding-top: 20px; }
 
